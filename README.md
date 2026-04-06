@@ -1,3 +1,3 @@
-# :pencil2: Repósitorio da disciplina eletiva Programação .NET
+# :pencil2: Repósitorio
 
-Este repositório contém os códigos-fonte dos exercícios da disciplina de Programação .NET dada pelo professor **Rafael E. Bisogno**.
+Repositório referente a disciplina eletiva Programação.NET com professor **Rafael E. Bisogno**.
