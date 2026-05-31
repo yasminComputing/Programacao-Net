@@ -1,0 +1,28 @@
+﻿@page
+@model PanielDeFuncionarios.Pages.FuncionariosModel
+
+@{
+    ViewData["Title"] = "Painel de Funcionários";
+}
+
+<h2>@ViewData["Title"]</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Cargo</th>
+            <th>Salário</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var funcionario in Model.Funcionarios)
+        {
+            <tr>
+                <td>@funcionario.Nome</td>
+                <td>@funcionario.Cargo</td>
+                <td>@funcionario.Salario.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
